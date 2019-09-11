@@ -1,0 +1,12 @@
+@import 'config/**/*.scss';
+@import './navbar';
+@import './display';
+@import './infoSection';
+@import './testimonial';
+@import './contact';
+@import './footer';
+
+* {
+  padding: 0px;
+  margin: 0px;
+}

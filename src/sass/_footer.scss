@@ -1,0 +1,33 @@
+.footer {
+  display: block;
+  background-color: #282828;
+  padding: 24px;
+  color: #eeeeee;
+  text-align: center;
+}
+.socialIcons > span > a {
+  color: #eeeeee;
+  text-decoration: none;
+}
+.copyRights,
+.socialIcons {
+  padding: 5px 0px;
+}
+
+@include mobile {
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #282828;
+    padding: 24px;
+    color: #eeeeee;
+  }
+  .socialIcons > span > a {
+    color: #eeeeee;
+    text-decoration: none;
+  }
+  .copyRights,
+  .socialIcons {
+    margin: 0px 40px;
+  }
+}

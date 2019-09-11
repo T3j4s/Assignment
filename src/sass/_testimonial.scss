@@ -1,0 +1,127 @@
+.testimonials {
+  background-color: #f7f7f7;
+  padding: 30px 20px;
+  width: 100%;
+}
+.testimonialheader {
+  text-align: center;
+  padding: 20px;
+  font-size: 32px;
+  display: block;
+}
+.testimonialbody {
+  display: block;
+  width: 100%;
+}
+
+.cards {
+  width: 100%;
+  background-color: white;
+  padding: 20px;
+  text-align: justify;
+  border-radius: 20px;
+  height: fit-content;
+  box-shadow: 0px 0px 5px silver;
+}
+.cardsContainer {
+  width: 100%;
+}
+.cards i {
+  color: #ff5722;
+}
+.arrow-down {
+  width: 0;
+  height: 0px;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 32px solid white;
+  position: relative;
+  top: 52px;
+  left: 10px;
+}
+
+.profile {
+  padding: 30px;
+  margin-top: 25px;
+  display: flex;
+}
+.profileIcon {
+  height: auto;
+  width: auto;
+  background-color: #beafaa;
+  border-radius: 50%;
+  padding: 12px;
+  border: 6px solid #e2e0e0;
+}
+.profilePosition {
+  margin-left: 10px;
+  padding: 10px 0px 10px 0px;
+}
+.TextColor {
+  color: gray;
+}
+
+@include mobile {
+  .testimonials {
+    background-color: #f7f7f7;
+    padding: 30px;
+  }
+  .testimonialheader {
+    text-align: center;
+    padding: 20px;
+    font-size: 32px;
+  }
+  .testimonialbody {
+    display: flex;
+    justify-content: center;
+  }
+
+  .cards {
+    margin: 10px;
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    text-align: justify;
+    border-radius: 20px;
+    height: fit-content;
+    box-shadow: 0px 0px 5px silver;
+  }
+  .cardsContainer {
+    margin: 10px;
+    width: 30%;
+  }
+  .cards i {
+    color: #ff5722;
+  }
+  .arrow-down {
+    width: 0;
+    height: 0px;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 32px solid white;
+    position: relative;
+    top: 52px;
+    left: 10px;
+  }
+
+  .profile {
+    padding: 30px;
+    margin-top: 25px;
+    display: flex;
+  }
+  .profileIcon {
+    height: auto;
+    width: auto;
+    background-color: #beafaa;
+    border-radius: 50%;
+    padding: 12px;
+    border: 6px solid #e2e0e0;
+  }
+  .profilePosition {
+    margin-left: 10px;
+    padding: 10px 0px 10px 0px;
+  }
+  .TextColor {
+    color: gray;
+  }
+}

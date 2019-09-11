@@ -1,0 +1,56 @@
+.infoContainer {
+  width: 100%;
+  height: auto;
+  display: block;
+  padding: 100px 0px;
+}
+.textContainer {
+  text-align: justify;
+  width: 100%;
+}
+.textContainer > h3 {
+  padding: 10px 20px;
+}
+.textContainer > p {
+  font-size: 15px;
+  padding: 10px 20px;
+}
+.imageContainer {
+  width: 100%;
+  padding: 20px;
+}
+.imageContainer > img {
+  width: 100%;
+  height: auto;
+}
+
+@include mobile {
+  .infoContainer {
+    width: 100%;
+    height: auto;
+    padding: 100px 20px;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .textContainer {
+    padding: 20px;
+    text-align: justify;
+    width: 50%;
+  }
+  .textContainer > h3 {
+    padding: 10px 0px;
+  }
+  .textContainer > p {
+    font-size: 15px;
+  }
+  .imageContainer {
+    width: 50%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .imageContainer > img {
+    width: 100%;
+    height: auto;
+  }
+}
